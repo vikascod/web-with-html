@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(242, 245, 242);
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.gr{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 50vw;
+}
+.gr h1{
+    font-size: xxx-large;
+    margin-left: 5vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+
+    margin-right: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+body footer{
+    text-align: center;
+    font-size: xx-large;
+    height: 5vh;
+    /* position: fixed;
+    bottom: 0;  */
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.leftBody{
+    width: 50vw; 
+}
+
+.subform form input{
+    font-size: large;
+}
